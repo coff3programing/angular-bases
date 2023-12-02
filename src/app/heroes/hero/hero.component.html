@@ -1,0 +1,15 @@
+<h1>{{ name }}</h1>
+<dl>
+  <td>Nombre:</td>
+  <dd>{{ name }}</dd>
+  <td>Edad:</td>
+  <dd>{{ age }}</dd>
+  <td>Método:</td>
+  <dd>{{ shortName }}</dd>
+  <td>Capiralizado:</td>
+  <dd>{{ capitalizedName }}</dd>
+</dl>
+
+<button *ngIf="name !== 'Goku'" (click)="changeName()">Rename</button>
+<button (click)="resetform()">Reset</button>
+<button *ngIf="age !== 22" (click)="changeAge()">Change Age</button>

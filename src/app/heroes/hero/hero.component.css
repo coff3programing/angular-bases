@@ -1,0 +1,26 @@
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: deeppink;
+}
+
+td {
+  color: hotpink;
+  font-weight: 100;
+  font-style: italic;
+}
+
+dd {
+  color: gray;
+}
+
+button {
+  outline: none;
+  border: none;
+  margin: 1.5rem 1.5rem;
+  background-color: #000;
+  color: lightpink;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  border: medium solid pink;
+}
